@@ -44,10 +44,11 @@
    |                         |                 |        |
    |-------------------------+-----------------+--------|
 
-   The Star box itself are OpenGL 3D-rendered "stars" that can
-   be manipulated by the mouse. The pressing of the shift
-   key will result in the dragging of a Star to a different
-   location in the 2D plane it's in.
+   The Star box itself are OpenGL 3D-rendered "stars" that
+   can be manipulated by the mouse. The pressing of
+   the shift key will result in the dragging of a Star
+   to a different location in the 2D plane it's in.
+
 ** Debugging
    #+begin_src bash
    RUST_BACKTRACE=1 cargo run
