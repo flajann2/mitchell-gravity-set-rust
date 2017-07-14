@@ -27,7 +27,7 @@ mod mgs {
         assets: PathBuf,
         font_path: PathBuf,
         text_vertex_data: Vec,
-        glyph_cache, mut text_texture_cache
+        glyph_cache: text_texture_cache,
         mgs_logo: G2dTexture,
         image_map: &conrod::image::Map,
         app: &star_ui::MGSApp
